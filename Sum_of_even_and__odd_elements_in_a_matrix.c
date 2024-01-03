@@ -6,10 +6,10 @@ int main()
     int ar[a][b];
     for(i=0;i<a;i++)
     {
-        for(j=0;j<b;j++)
-        {
-            scanf("%d",&ar[i][j]);
-        }
+       for(j=0;j<b;j++) 
+       {
+           scanf("%d",&ar[i][j]);
+       }
     }
     int sum1=0,sum2=0;
     for(i=0;i<a;i++)
