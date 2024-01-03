@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
+    int a; 
+    scanf("%d",&a); 
     int ar[a],i,c=0;
     for(i=0;i<a;i++)
     {
@@ -10,10 +10,10 @@ int main()
     }
     for(i=0;i<a;i++)
     {
-        if((ar[i-1])%2!=0&&ar[i]%2==0&&(ar[i+1])%2!=0)
-        {
-            c++;
-        }
+       if((ar[i-1])%2!=0&&ar[i]%2==0&&(ar[i+1])%2!=0)
+       {
+           c++;
+       }
     }
-    printf("%d",c);
+    printf("%d",c); 
 }
