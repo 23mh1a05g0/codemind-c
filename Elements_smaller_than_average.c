@@ -16,6 +16,6 @@ int main()
         {
             c++;
         }
-    } 
+    }
     printf("%d",c);
 }
